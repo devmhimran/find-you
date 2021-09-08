@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    width: 100%;
+    padding: 0 280px;
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.site-map{
+    width: 40%;
+}
+
+.main-nav{
+    width: 40%;
+    display: flex;
+    justify-content: end;
+}
+
+.main-nav a{
+    margin: 0 20px;
+}
+
+.nav-user{
+    width: 19%;
+}
+
+.btn{
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-one{
+    background-color: #EF7F65;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+.btn-one:hover{
+    border: 1px solid #EF7F65;
+    background-color: #fff;
+    color: #EF7F65;
+    transition: 0.5s;
+}
+
+.section-1{
+    /* display: flex;
+    justify-content: center; */
+}
+
+.hero-text{
+    margin: 120px 0 40px 0;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+.hero-para{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: center;
+}
+
+.hero-btn{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn-two{
+    border: 1px solid #262524;
+    border-radius: 25px;
+}
