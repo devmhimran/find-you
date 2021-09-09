@@ -26,12 +26,14 @@ a{
     text-decoration: none;
 }
 
+li{
+    list-style: none;
+}
+
 .container {
-    width: 100%;
-    padding: 0 350px;
+    width: 1140px;
     margin-right: auto;
     margin-left: auto;
-    display: inline-block;
 }
 
 .navbar{
@@ -73,9 +75,10 @@ a{
 }
 
 .btn{
-    padding: 10px 25px;
+    padding: 15px 30px;
     font-size: 16px;
     font-weight: 400;
+    border: 1px solid #EF7F65;
 }
 
 .btn-one{
@@ -293,4 +296,79 @@ a{
    color: #ef7f65;
    cursor: pointer;
    transition: 0.5s;
+}
+
+.section-5{
+    position: relative;
+    padding: 100px 0;
+    
+}
+
+.section-5-heading h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+.section-5-heading p{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 32px;
+    color: #506270;
+    padding: 20px 0;
+}
+
+.pricing-table{
+    display: flex;
+    justify-content: center;
+}
+
+.pricing-table-one, .pricing-table-two{
+    padding: 40px 100px 40px 40px;
+    margin: 30px;
+    border: 1px solid #80e0dd;
+    border-radius: 10px;
+}
+
+.upper-content{
+    border-bottom: 1px solid #80e0dd;
+}
+
+.pricing{
+    padding: 30px 0;
+    color: #262524;
+}
+
+.currency{
+    font-size: 20px;
+}
+
+.price{
+    font-size: 40px;
+}
+
+.period{
+    font-size: 18px;
+}
+.lower-content{
+    margin: 40px 0;
+}
+
+.lower-content ul li{
+    padding: 10px 0;
+    color: #506270;
+}
+.btn-five{
+    background-color: #80e0dd;
+    color:#fff;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 25px;
+    border: 1px solid #80e0dd;
+}
+.btn-five:hover{
+    border: 1px solid #80e0dd;
+    background-color: #fff;
+    color:#80e0dd;
+    transition: 0.5s;
 }
