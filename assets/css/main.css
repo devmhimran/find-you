@@ -7,11 +7,14 @@
     font-family: 'Source Sans Pro', sans-serif;
     /* scroll-behavior: smooth; */
 }
+html {
+    scroll-behavior: smooth;
+}
 ::-webkit-scrollbar {
     width: 12px;
 }
 ::-webkit-scrollbar-track {
-    background:#fbfbfb;
+    background:rgba(128, 224, 221, 0.4);
 }
 ::-webkit-scrollbar-thumb {
     background: #EF7F65; 
@@ -45,7 +48,7 @@ li{
     justify-content: end;
 }
 .main-nav a{
-    padding-bottom: 10px;
+    padding-bottom: 12px;
     margin: 0 20px;
     /* border-bottom: 1px solid #262524; */
     font-size: 16px;
@@ -53,9 +56,9 @@ li{
     color: #262524;
 }
 .main-nav a:hover{
-    padding-bottom: 10px;
-    border-bottom: 1px solid #262524;
-    color: #262524;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #EF7F65;
+    color: #EF7F65;
 }
 .nav-user{
     width: 19%;
@@ -444,6 +447,9 @@ li{
     color: #80e0dd;
     border: 1px solid #80e0dd;
     transition: 0.5s;
+}
+.footer{
+    background-image: url("/assets/img/footer-bg.png");
 }
 .footer-main {
     display: grid;
